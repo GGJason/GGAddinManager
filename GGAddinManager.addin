@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>AddinManager</Name>
+    <Assembly>GGAddinManager.dll</Assembly>
+    <AddInId>f3682603-9f9d-4883-bd3f-24f9d3e5d275</AddInId>
+    <FullClassName>GGJason.GGAddin</FullClassName>
+    <VendorId>GGJason</VendorId>
+    <VendorDescription>GGJason, www.ggjason.tw</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>GGAddinManager.dll</Assembly>
+    <ClientId>547c68cc-add4-4f0c-aa82-3bc36d8417a7</ClientId>
+    <FullClassName>GGJason.guid</FullClassName>
+    <Text>guid</Text>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <LanguageType>Unknown</LanguageType>
+    <VendorId>GGJason</VendorId>
+    <VendorDescription>GGJason, www.ggjason.tw</VendorDescription>
+  </AddIn>
+</RevitAddIns>
